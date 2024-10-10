@@ -22,7 +22,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-path = '/workspaces/codespaces-blank/chromedriver'
+path = 'chromedriver.exe'
 service = Service(path)
 options = webdriver.ChromeOptions()
 

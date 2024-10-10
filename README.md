@@ -1,6 +1,7 @@
 # Scraping de Imágenes de Perfiles de Facebook
 
 Este proyecto permite realizar scraping de imágenes de perfiles de Facebook, subirlas a un bucket de Amazon S3 y registrar la información en una base de datos MySQL.
+Yo trabaje este poryecto con windows y chrome
 
 ## Tabla de Contenidos
 
