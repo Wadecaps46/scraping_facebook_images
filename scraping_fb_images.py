@@ -71,8 +71,7 @@ def get_valid_profiles_from_db():
             # Consulta para obtener perfiles
             query = """
             SELECT id_perfil, perfil 
-            FROM perfiles_scraping
-            LIMIT 2;
+            FROM perfiles_scraping;
             """
             cursor.execute(query)
             result = cursor.fetchall()  # Obtener todos los resultados
@@ -81,8 +80,6 @@ def get_valid_profiles_from_db():
                 return profile_list
             else:
                 return []
-
-            # profile_list = [{'id_perfil': row[0], 'perfil': row[1]} for row in result]  # Crear lista de diccionarios
     finally:
         connection.close()
     

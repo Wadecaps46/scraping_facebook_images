@@ -23,4 +23,11 @@ Este script utiliza Selenium para automatizar la navegación por perfiles de Fac
 - Boto3 (para interactuar con AWS S3)
 - pymysql (para interactuar con MySQL)
 - requests (para descargar imágenes)
+- Instalar chromedriver respectivamenrte la versión de su navegador Chrome que tengan
 - Otros más que estan en el archivo requirements.txt
+
+## El script se encargará de:
+Navegar a los perfiles de Facebook especificados.
+Realizar el scraping de las imágenes.
+Subir las imágenes a S3.
+Guardar la información en la base de datos MySQL.
